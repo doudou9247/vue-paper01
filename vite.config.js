@@ -9,6 +9,8 @@ export default defineConfig({
 
   base: './',
 
+  publicDir: false,
+
   plugins: [
     vue(),
     vueDevTools(),
